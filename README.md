@@ -1,7 +1,7 @@
 # Sales Pages
 
 These are the instructions for updating the sales pages in Umbraco. 
-For both pages there is no need to edit CSS of JS just copy and paste into umbraco.
+For both pages there is no need to edit CSS or JS just copy and paste into umbraco.
 
 
 ## Sales Page V1
