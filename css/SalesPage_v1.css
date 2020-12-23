@@ -1,0 +1,315 @@
+/* Page 1 */
+@font-face {
+    font-family: 'Badaboom';
+    src: url('https://media.trafficsafetystore.com/raw/upload/v1598034077/fonts/BadaBoom-BB-V1.woff2') format('woff2'),
+         url('https://media.trafficsafetystore.com/raw/upload/v1598034797/fonts/BadaBoom-BB-V1.woff') format('woff'),
+         url('https://media.trafficsafetystore.com/raw/upload/v1598034797/fonts/BadaBoom-BB-V1.ttf') format('ttf');
+  }
+  
+  .main{
+  padding: 0 !important;
+  }
+  
+  #badaboom, .cta-font {
+  font-family: "Badaboom", sans-serif !important;
+  font-weight: 500 !important;
+  }
+  
+  h1 {
+  font-size: 4rem !important;
+  color: #fedd00 !important; }
+  
+  h2 {
+  font-size: 2.5rem !important;
+  display: flex !important; 
+  justify-content: center;
+  flex-direction: column;
+  line-height: .5 !important;
+  text-align: center !important;
+  color: #182749 !important
+  }
+  
+  .sales-h3 {
+  font-size: 2.5rem !important; }
+  
+  .sales-p {
+  font-size: 1rem !important; }
+  
+  img {
+  max-width: 100% !important;
+  height: auto !important; }
+  
+  a:hover {
+  text-decoration: none !important; }
+  
+  .cta-btn, #update-email {
+  border-radius: 3px !important;
+  margin: 10px 0 !important; }
+  
+  .rotated {
+  transform: rotate(-5deg) !important;
+  margin-bottom: 20px !important; }
+  
+  .spaced {
+  line-height: 1 !important;
+  letter-spacing: 0.2rem !important;
+  word-spacing: 0.5rem !important;
+  max-width: 700px !important;}
+  
+  .container {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  margin-top: 50px !important; }
+  
+  /* This lets you put a span around text you want on one line*/
+  .new-line::before {
+  content: "\a" !important;
+  white-space: pre !important;
+  line-height: 0 !important;
+  }
+  
+  /* We're using breakpoints at 576px, 768px, 992px and 1200 */
+  @media (min-width: 768px) {
+  .new-line::before {
+    content: " " !important;
+    white-space: pre !important; 
+  }
+  
+  h2{
+    flex-direction: row !important;
+    font-size: 3rem !important;
+  }
+  }
+  
+  /*///////////////////
+    Hero Section
+  */
+  .hero {
+  /* Set background image on specific page CSS */
+  height: 600px !important;
+  padding: 0 !important;
+  text-align: right !important;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("https://media.trafficsafetystore.com/image/upload/v1598281282/SalesPages/img-desktop1-hero-blank.png") !important; 
+  background-position: left !important;
+  display: flex!important;
+  }
+  
+  .hero-form {
+  height: 100% !important;
+  width: 100% !important;
+  text-align: right !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 5% !important;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.7) 100%) !important; }
+  .hero-form b, .hero-form label {
+    color: #fff !important; }
+  
+  .form-group {
+  margin-top: 10px !important;
+  width: 300px !important; }
+  
+  .cta-btn {
+    max-width: 300px !important;  
+    width: 100%;
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important; 
+    background-image: none !important;}
+  
+  .cta-btn:hover{
+    background-color: #005ec5 !important;
+    border-color: #005ec5 !important; 
+  }
+  
+  /* We're using breakpoints at 576px, 768px, 992px and 1200 */
+  @media (min-width: 768px) {
+  .hero {
+    text-align: center !important; 
+  
+  }
+  .hero-form {
+    text-align: center !important;
+  align-items: center; } }
+  
+  @media (min-width: 992px) {
+  .hero {
+      display: none!important;
+      text-align: center !important; 
+  }
+  .hero-form {
+    padding-right: 5% !important;
+    background: none !important;
+    max-width: 1000px !important;
+    background: none !important; } }
+  
+  /*///////////////////
+    Item Section
+  */
+  .item {
+  margin-top: 40px !important;
+  height: 350px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  text-align: center; }
+  
+  .item img {
+  height: 200px !important;
+  margin: 5px 0 !important;
+  -webkit-box-shadow: 1px 1px 1px 1px #D4D4D4 !important;
+  box-shadow: 1px 1px 1px 1px #D4D4D4 !important; }
+  
+  .item-image {
+  position: relative !important; }
+  
+  .price {
+  background-image: url("https://media.trafficsafetystore.com/image/upload/v1598281267/SalesPages/starburst-orange.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  width: 80px !important;
+  height: 80px !important;
+  top: -25px !important;
+  right: 85px !important;
+  text-align: center !important;
+  vertical-align: middle !important; }
+  
+  .price::after {
+  content: "" !important;
+  z-index: -1 !important; }
+  
+  .price-text {
+      display: flex !important;
+    justify-content: center !important;
+    height: 75px !important;
+    flex-direction: column !important; }
+  
+  .price-text b {
+  margin: 0 !important;
+  font-size: 0.8rem !important;
+  color: #fff !important;
+  line-height: 1.2 !important; }
+  
+  .price-text b:last-child {
+  font-family: "Badaboom", "Impact", fantasy !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important; }
+  
+  /* We're using breakpoints at 576px, 768px, 992px and 1200 */
+  @media (min-width: 768px) {
+  
+  .price{
+  right: -25px !important;
+  }
+  }
+  
+  @media (min-width: 992px) {
+  
+    .price{
+      right: -15px !important;
+    }
+  }
+  
+  /*///////////////////
+      Info Section
+  */
+  
+  .info-container{
+    display: flex!important;
+    flex-direction: column!important;
+  }
+  
+  .info {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  margin-top: 40px !important; }
+  
+  .info img {
+  padding: 0 !important; }
+  
+  .info p {
+  padding: 10px 0 0 !important; }
+  
+  .info-text {
+  margin-top: 15px !important; }
+  
+  @media (min-width: 1200px) {
+  .info {
+    flex-direction: row !important; }
+  .info img {
+    padding-right: 30px !important; } }
+  
+  /*///////////////////
+    Testimonials Section
+  */
+  .testimonial{
+    margin-top: 15px !important;
+  }
+  
+  .testimonial-row {
+  margin-top: 40px !important; }
+  
+  .testimonial img {
+  width: 150px; 
+  margin-bottom: 5px;
+  }
+  
+  .testimonial p:last-child {
+  font-weight: 600 !important; }
+  
+  
+  /*///////////////////
+    Contact Section
+  */
+  .contact-box a {
+    color: #fedd00;
+    font-size: 1.7rem !important; 
+  }
+  
+  .contact-row{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: auto !important;
+    margin-bottom: 50px !important;
+  }
+  
+  .contact-box {
+    margin: 20px 10px !important;
+    background-image: url("https://media.trafficsafetystore.com/image/upload/v1598299404/SalesPages/asphalt_texture409.png");
+    border: 2px solid #000 !important;
+    display: flex !important;
+    text-align: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    height: 175px !important;
+    -webkit-box-shadow: 5px 5px 3px 0px #aeaeae !important;
+    box-shadow: 5px 5px 3px 0px #aeaeae !important; 
+    width: 350px !important;
+  }
+  
+  .contact-box p {
+  font-family: "Badaboom", "Impact", fantasy !important;
+  font-size: 2rem !important;
+  font-weight: 500 !important; }
+  
+  .contact-box p {
+  color: #fff !important; }
+  
+  .contact-box p:last-child {
+  color: #fedd00 !important; }
+  
+  /* We're using breakpoints at 576px, 768px, 992px and 1200 */
+  @media (min-width: 768px) {
+    .contact-row{
+  flex-direction: row !important;
+    }
+  }
